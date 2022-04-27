@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>PocketMoni</title>
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="./img/pocketmoni.png" alt="PocketMoni" class="logo mx-4">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item dropdown mx-4">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              About Us
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item g-4" href="story.html"><small>Our Story</small></a></li>
+              <li><a class="dropdown-item g-4" href="agent.html"><small>Agents</small></a></li>
+              <li><a class="dropdown-item g-4" href="career.html"><small>Careers</small></a></li>
+              <li><a class="dropdown-item g-4" href="press.html"><small>Press</small></a></li>
+            </ul>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link active" aria-current="page" href="pocketmoni.html">My PocketMoni</a>
+          </li>
+          <li class="nav-item dropdown mx-4">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Support
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="question.html">FAQ</a></li>
+              <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="d-flex m-4">
+          <a href="reg.html" class="btn btn-blue bg-lg text-white py-2 px-3"><small>Become an Agent</small></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <br>
+  <br>
+  <br>
+  <br>
+  <!-- Showcase -->
+  <!-- <section class="bg-pink text-dark p-5 text-md-start bg-height">
+    <div class="container">
+      <div class="col-md-8 d-sm-flex flex-column align-items-center justify-content-between">
+        <h1 class="border-start border-danger border-3 ps-3 text-blue d-flex align-self-start justify-self-start w-50">
+          Convenient & easy access to financial services every minute</h1>
+        <p class="d-flex align-self-start justify-self-center w-50">Pockemoni provides you access to perform
+          transactions
+          and make payments wherever you are
+          with ease and convenience.
+        </p>
+        <div>
+          <button class="btn btn-blue bg-lg text-white" type="submit"><small>Become an Agent</small></button>
+        </div>
+        <div>
+          <button class="btn btn-blue bg-lg text-white" type="submit"><small>Become an Agent</small></button>
+        </div>
+      </div>
+      <a href="#" class="position-absolute">
+        <i class="bi bi-arrow-down-square mt-5 pt-5 text-dark h5"></i>
+      </a>
+      <div class="col-md-4 ms-auto position-relative">
+        <i class="bi bi-star-fill bg-warning"></i>
+        <blockquote
+          class="blockquote bg-white p-4 rounded position-absolute top-100 end-40 translate-middle d-none d-xl-block">
+          <p>PocketMoni Rocks! This app makes utility & bill payments, funds transfers and airtime topups as easy as
+            breathing! It is easy, safe, secure, fast and convenient to use, an app that every smartphone should have.
+          </p>
+          <footer><cite title="Anonymous customer" class="text-muted">- Anonymous customer</cite></footer>
+
+        </blockquote>
+        <img class="w-75 ms-4 rounded position-absolute start-50 translate-middle d-none d-xl-block"
+          src="img/smilinglady.png" alt="">
+      </div>
+    </div>
+  </section> -->
+
+  <section class="bg-pink text-light text-center p-5 p-lg-0 pt-lg-5 text-sm-start mb-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 d-flex flex-column align-items-left justify-content-between w-40">
+          <h1 class="border-start border-danger border-3 ps-3 text-blue display-5 mt-5">Become a PocketMoni
+            Agent & earn a living today.</h1>
+          <p class="text-secondary ">PocketMoni allows you to provide financial services to your community while earning
+            commissions/discounts on the transactions performed.
+          </p>
+          <div class="d-flex">
+            <a href="reg.html" class="btn btn-blue bg-lg text-white py-2 px-3"><small>Become an Agent</small></a>
+          </div>
+          <a href="#experience" class="mb-3">
+            <i class="bi bi-arrow-down-square text-dark h5"></i>
+          </a>
+        </div>
+        <div class="col-lg-4 ms-auto me-5">
+          <img src="./img/agenthero.png" class="rounded ms-5 img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="p-5">
+    <div class="container">
+      <h1 class="text-center text-blue mb-4">Why become a PocketMoni Agent ?</h1>
+      <p class="text-center mb-5">
+        PocketMoni allows an individual or organization who becomes an agent to serve as a “mini-bank” in <br> his
+        vicinity
+        and conduct financial transactions anytime, anywhere, from his mobile phone using <br> either the USSD code
+        *389#,
+        the PocketMoni App or the PocketMoni POS.
+      </p>
+
+      <div class="row g-4 my-5">
+        <div class="col-md-6 col-lg-4 text-start d-flex flex-row">
+          <div class=" ">
+            <i class="bi bi-geo-alt bg-secondary p-2 mx-2 h3 bg-opacity-10"></i>
+          </div>
+          <div class="w-75">
+            <h5 class="mb-2 text-blue ">Earn quick cash</h5>
+            <p class="">
+              <small>
+                PocketMoni empowers its agents to make extra income by profiling and activation on the POS scheme.
+              </small>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 text-start d-flex flex-row">
+          <div>
+            <i class="bi bi-credit-card-2-front bg-secondary px-2 py-1 mx-2 h3 bg-opacity-10"></i>
+          </div>
+          <div class="w-75">
+            <h5 class="mb-2 text-blue ">Agent Support</h5>
+            <p class="">
+              <small>
+                Guaranteed 24/7 support for all agent inquiries and dispute resolutions.
+              </small>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 text-start d-flex flex-row">
+          <div class=" ">
+            <i class="bi bi-share bg-secondary p-2 mx-2 me-3 h3 bg-opacity-10"></i>
+          </div>
+          <div class="w-75">
+            <h5 class="mb-3 text-blue ">Flexible Pricing</h5>
+            <p class="">
+              <small>
+                We offer competitive rates and provide exclusive pricing to super agent networks.
+              </small>
+            </p>
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+  <!-- Payment -->
+  <section class="p-5">
+    <div class="container">
+      <h2 class="text-center text-blue mb-4">Easy payment experience</h2>
+      <p class="text-center mb-5">
+        PocketMoni helps you make payments for services convinently via multiple <br> channels, all at your fingertips.
+      </p>
+
+      <div class="row g-3 align-items-center justify-content-around mb-5">
+        <div class="col-md-6 col-lg-4 text-center align-items-center hover p-5">
+          <i class="bi bi-telegram text-blue display-1"></i>
+          <h5 class="mt-3">Send Money</h5>
+          <p><small>Instant funds transfer to PocketMoni users and all banks in Nigeria</small></p>
+        </div>
+        <div class="col-md-6 col-lg-4 text-center hover p-4">
+          <i class="bi bi-archive text-blue display-1"></i>
+          <h5 class="mt-3">Withdraw Money</h5>
+          <p><small>Access our cash out service leveraging on our robust agency network as well as alternative payment
+              channels (Bank , ATM).</small></p>
+        </div>
+        <div class="col-md-6 col-lg-4 text-center hover p-5">
+          <i class="bi bi-receipt-cutoff text-blue display-1"></i>
+          <h5 class="mt-3">Pay Bills</h5>
+          <p><small>With PocketMoni you can buy airtime and make payments for your everyday utility bills without
+              hassle</small></p>
+        </div>
+        <div class="col-md-6 col-lg-4 text-center hover p-5">
+          <i class="bi bi-phone-fill text-blue display-1"></i>
+          <h5 class="mt-3">Pay Bills</h5>
+          <p><small>With PocketMoni you can buy airtime and make payments for your everyday utility bills without
+              hassle</small></p>
+        </div>
+        <div class="col-md-6 col-lg-4 text-center hover p-5">
+          <i class="bi bi-receipt-cutoff text-blue display-1"></i>
+          <h5 class="mt-3">Pay Bills</h5>
+          <p><small>With PocketMoni you can buy airtime and make payments for your everyday utility bills without
+              hassle</small></p>
+        </div>
+        <div class="col-md-6 col-lg-4 text-center hover p-5">
+          <i class="bi bi-receipt-cutoff text-blue display-1"></i>
+          <h5 class="mt-3">Pay Bills</h5>
+          <p><small>With PocketMoni you can buy airtime and make payments for your everyday utility bills without
+              hassle</small></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Agent -->
+  <section class="text-center bg-white p-lg-0 pt-lg-5 text-sm-start my-5">
+    <div class="container">
+      <div class="d-flex align-items-center justify-content-between">
+        <h1 class="border-start border-danger border-5 rounded-start ps-5 mb-4 justify-self-start w-60 me-auto"> We are
+          comitted
+          to
+          bringing financial services to the underbanked & unbanked</span></h1>
+        <p class="w-40"><small>With an agency network of over 10,000 agents nationwide, Pocketmoni is pioneering
+            the
+            Financial Inclusion Initiative mandated by the Central Bank of Nigeria (CBN).</small></p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Store -->
+  <section class="bg-blue text-light p-5">
+    <div class="container">
+      <h2 class="text-center pb-3">Download the app or dial *389# today</h2>
+      <div class="d-flex justify-content-center">
+        <a href="#"><img src="./img/store3.png" class="store p-2" alt=""></a>
+        <a href="#"><img src="./img/store4.png" class="store p-2" alt="" style="width: 140px;"></a>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer p-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="./img/pocketmoni.png" alt="PocketMoni" class="logo mx-4">
+        </div>
+        <div class="col-lg-8 d-flex justify-content-evenly ">
+          <div>
+            <h6 class="">About Us</h6>
+            <ul class="list-group-flush list-unstyled">
+              <li class="align-self-start"><a href="#"><small>Our Story</small></a></li>
+              <li><a href="#"><small>Career</small></a></li>
+              <li><a href="#"><small>Press</small></a></li>
+            </ul>
+          </div>
+          <div>
+            <h6 class="">Support</h6>
+            <ul class="list-group-flush list-unstyled">
+              <li class="align-self-start"><a href="#"><small>FAQ</small></a></li>
+              <li><a href="#"><small>Contact</small></a></li>
+              <li><a href="#"><small>My PocketMoni</small></a></li>
+            </ul>
+          </div>
+          <div>
+            <h6 class="">Legal</h6>
+            <ul class="list-group-flush list-unstyled">
+              <li class="align-self-start"><a href="#"><small>Privacy Policy</small></a></li>
+              <li><a href="#"><small>Terms and Conditions</small></a></li>
+            </ul>
+          </div>
+          <div class="w-30">
+            <h6 class="">Address</h6>
+            <p class="text-left"><small>1st Floor Fortune Towers,
+                27/29 Adeyemo Alakija Street, Victoria Island, Lagos, Nigeria.</small></p>
+
+          </div>
+
+        </div>
+      </div>
+
+      <hr>
+      <p class="text-secondary text-left">
+        <small>Copyright &copy; 2022. PocketMoni All rights reserved.</small>
+      </p>
+      <div class="text-secondary d-flex justify-content-end align-items-center">
+        <i class="bi bi-facebook pe-2 h5"></i>
+        <i class="bi bi-twitter pe-2 h5"></i>
+        <i class="bi bi-instagram pe-2 h5"></i>
+      </div>
+
+      <!-- <a href="#" class="position-absolute bottom-0 end-0 p-5">
+        <i class="bi bi-chat-text-fill h1"></i>
+      </a> -->
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
