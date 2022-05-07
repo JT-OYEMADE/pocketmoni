@@ -18,6 +18,14 @@ li {
   list-style: none;
 }
 
+.rotate {
+  transition: all 1s ease-in-out ;
+}
+
+.rotate:hover {
+  transform: rotate(-180deg);
+}
+
 .btn-blue {
   background: #000645;
 }
@@ -103,6 +111,26 @@ li {
   width: 60%;
 }
 
+.w-80 {
+  width: 80%;
+}
+
+.rounded-4 { border-radius: 15px 15px 0 0;}
+.rounded-4b { border-radius: 0 0 15px 15px;}
+
+.vh {
+  height: 60vh;
+}
+.vh::after {
+  content: '';
+  background: rgb(0,0,0, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .why {
   height: 570px;
 }
@@ -141,28 +169,6 @@ li {
 
 .career-opening {
   padding: 2rem 6rem 1rem;
-} 
-
-.accordion {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-  transition: 0.4s;
-}
-
-.accordion-item {
-  background: #eee;
-  height: 100px;
-}
-
-.active, .accordion:hover {
-  background-color: #ccc;
 }
 
 
@@ -170,3 +176,233 @@ li {
   list-style: none;
 }
 
+/* Carousel */
+.carousel-item {
+  height: 70vh;
+  min-height: 300px;
+  background: no-repeat center center/cover;
+}
+
+.carousel-item::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #000;
+  opacity: 0.7;
+}
+
+.carousel-caption {
+  left: 0;
+  right: 500px;
+  bottom: 150px;
+  margin-left: 0;
+  padding: 0 10px;
+}
+
+.carousel-caption h6 {
+  font-size: 2.5rem;
+  font-weight: 900px;
+  width: 50rem;
+  text-align: left;
+  margin-left: 200px;
+  margin-top: 80px;
+}
+
+.carousel-caption p {
+  text-align: left;
+  margin-left: 200px;
+  font-size: 1.5rem;
+}
+
+.slider-store {
+  width: 100px;
+}
+
+.slider-btn {
+  margin-right: 300px;
+  margin-bottom: 30px;
+}
+
+#agent-reg img {
+  width: 220px !important;
+  position: relative;
+  background: no-repeat center center/cover;
+}
+
+#agent-reg img::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #000;
+  opacity: 0.7;
+}
+
+#pocketmoni .elements {
+  position: relative;
+}
+
+#pocketmoni .elements .circle {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  top: -30px;
+  left: 130px;
+  position: absolute;
+}
+
+.crd-g {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.crd {
+  background: #fff;
+  width: 300px;
+  height: 400px;
+  margin: 60px;
+  border-radius: 10px;
+}
+
+.card-image {
+  background-color: #444;
+  height: 200px;
+  border-radius: 10px 10px 0 0;
+}
+.car-1 {
+  background: url('../img/register1.png') no-repeat center center/cover;
+  margin-bottom: 40px;
+}
+.car-2 {
+  background: url('../img/download1.png') no-repeat center center/cover;
+  margin-bottom: 40px;
+}
+.car-3 {
+  background: url('../img/transact1.png') no-repeat center center/cover;
+  margin-bottom: 40px;
+}
+
+.crd h3 {
+  text-align: center;
+  padding: 5px 10px;
+
+}
+
+.part-border {
+  width: 1200px;
+  height: 550px;
+  border: 1px solid #000;
+  position: relative;
+  margin: 150px auto;
+}
+
+.part-border::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: 300px;
+  width: 600px;
+  border: 5px solid #fff;
+}
+
+.part-border h2 {
+  font-size: 40px;
+  position: absolute;
+  top: -40px;
+  left: 300px;
+  z-index: 2;
+  text-align: center;
+  /* width: 500px; */
+}
+
+#story {
+  background: #fff6f7;
+  height: 60vh;
+
+}
+
+.story {
+  width: 85%;
+  height: 450px;
+  border-radius: 20px;
+}
+
+.story-pics {
+  background: url('../img/story.jpeg') no-repeat center center/cover;
+  width: 95%;
+  height: 450px;
+  border-radius: 20px;
+  position: relative;
+  margin-top: 80px;
+}
+
+.story-pics::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #000;
+  opacity: 0.7;
+  border-radius: 20px;
+
+}
+
+.story-textpics {
+  top: 65px;
+  left: 90px;
+}
+
+.story-textpics h2 {
+  font-size: 48px;
+}
+
+.story-textpics p {
+  font-size: 18px;
+}
+
+.story-progress {
+  width: 1050px;
+  margin-top: 10px;
+}
+
+.story-progress1 {
+  width: 230px;
+  height: 3px;
+  background: red;
+}
+
+#sendmoney {
+ margin-top: 200px;
+ margin-bottom: 200px;
+}
+
+#sendmoney img {
+  background: no-repeat center center/cover;
+  width: 95%; 
+  height: 150px;
+  border-radius: 50px;
+}
+
+#sendmoney .row:nth-child(even) {
+  margin-top: 600px;
+}
+
+
+.message {
+  width: 60px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
